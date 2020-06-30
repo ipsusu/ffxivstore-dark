@@ -13,6 +13,8 @@ Install it and then click the install button below to add the theme to the websi
 Stylus will open a new tab in your browser that loads the UserCSS userstyle. Make sure to press the `Install style` button, which will be followed by the text “Style Installed” if the installation is successful.
 
 ## Install
+Click the 'Install with Stylus' button below.
+
 
 [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/ipsusu/ffxivstore-dark/raw/master/ffxivstore-dark.user.css)
 
