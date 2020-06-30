@@ -2,7 +2,7 @@
   <h1 align="center">Final Fantasy XIV Online Store Dark</h1>
   <p align="center">A black background, dark mode, user-style for https://store.finalfantasyxiv.com/ffxivstore/</p>
   <p align="center">
-    <img src="https://raw.githubusercontent.com/ipsusu/ffxivstore-dark/master/images/ver0-1-0.png">
+    <img src="https://raw.githubusercontent.com/ipsusu/ffxivstore-dark/master/images/preview.jpg">
   </p>
 </p>
 
