@@ -27,3 +27,5 @@ Message me on [Twitter](https://twitter.com/ipsusu)!
 This does not theme the payment process as this redirects to the Square Enix site.
 
 If you would like to theme these, add "https://secure.square-enix.com/account/app/svc/top?request=paysyslogin" as an 'Applies to URLs starting with' section. Though, this does not theme the card detail entering page.
+
+I have not tested the 'Gift a Friend' option, so this is potentially unthemed if there are any unique elements for that function. 
