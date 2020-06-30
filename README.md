@@ -16,6 +16,12 @@ Stylus will open a new tab in your browser that loads the UserCSS userstyle. Mak
 
 [![](https://img.shields.io/badge/install%20with-stylus-006666?style=flat-square)](https://github.com/ipsusu/ffxivstore-dark/raw/master/ffxivstore-dark.user.css)
 
-## Contributing
+## Contributing and Issues
 
 Message me on [Twitter](https://twitter.com/ipsusu)!
+
+## Notes
+
+This does not theme the payment process as this redirects to the Square Enix site.
+
+If you would like to theme these, add "https://secure.square-enix.com/account/app/svc/top?request=paysyslogin" as an 'Applies to URLs starting with' section. Though, this does not theme the card detail entering page.

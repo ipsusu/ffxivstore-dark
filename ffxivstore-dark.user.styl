@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        Final Fantasy XIV Online Store Dark
-@version     0.1.0
+@version     1.0.0
 @namespace   ipsusu
 @homepageURL https://github.com/ipsusu/ffxivstore-dark
 @updateURL   https://github.com/ipsusu/ffxivstore-dark/raw/master/ffxivstore-dark.user.css
 @license     CC BY-NC-SA 4.0
 @author      ipsusu
 ==/UserStyle== */
-/*! Final Fantasy XIV Online Store Dark v0.1.0 (2020-06-30) */
+/*! Final Fantasy XIV Online Store Dark v1.0.0 (2020-06-30) */
 /*! Repository: https://github.com/ipsusu/ffxivstore-dark */
 /*! License:    https://creativecommons.org/licenses/by-nc-sa/4.0/ */
 @-moz-document url-prefix("https://store.finalfantasyxiv.com/ffxivstore/"){
@@ -59,7 +59,8 @@ md-menu-lv-1-label:hover,
 .md-menu-lv-2-btn:hover,
 .md-menu-lv-1-btn.is-selected,
 .md-menu-lv-2-btn.is-selected,
-.ffxiv_pr_cross_menu__inner {
+.ffxiv_pr_cross_menu__inner,
+.box-popup {
     background-color: #1B1B1B !important;
 }
 
@@ -67,7 +68,11 @@ md-menu-lv-1-label:hover,
 .headline-dropshadow,
 .box-table-th,
 .character-box,
-.ffxiv_pr_cross_menu__header {
+.ffxiv_pr_cross_menu__header,
+.cart-account-select,
+.cart-character-select-all,
+.box-caution,
+.payment-box{
     background-color: #262626 !important;
 }
 
@@ -88,9 +93,9 @@ gradients
 }
 
 .btn.btn-black {
-    background: -moz-linear-gradient(left, #1B1B1B 0%, #262626 100%);
-    background: -webkit-linear-gradient(left, #1B1B1B 0%, #262626 100%);
-    background: linear-gradient(to right, #1B1B1B 0%, #262626 100%);
+    background: -moz-linear-gradient(left, #262626 0%, #2F2F2F 100%);
+    background: -webkit-linear-gradient(left, #262626 0%, #2F2F2F 100%);
+    background: linear-gradient(to right, #262626 0%, #2F2F2F 100%);
 }
 
 /*
@@ -187,4 +192,4 @@ select {
 /*
  *  end scrollbar
  */
- }
+}
