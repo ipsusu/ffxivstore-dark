@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        Final Fantasy XIV Online Store Dark
-@version     1.0.0
+@version     1.0.1
 @namespace   ipsusu
 @homepageURL https://github.com/ipsusu/ffxivstore-dark
 @updateURL   https://github.com/ipsusu/ffxivstore-dark/raw/master/ffxivstore-dark.user.css
 @license     CC BY-NC-SA 4.0
 @author      ipsusu
 ==/UserStyle== */
-/*! Final Fantasy XIV Online Store Dark v1.0.0 (2020-06-30) */
+/*! Final Fantasy XIV Online Store Dark v1.0.1 (2020-06-30) */
 /*! Repository: https://github.com/ipsusu/ffxivstore-dark */
 /*! License:    https://creativecommons.org/licenses/by-nc-sa/4.0/ */
 @-moz-document url-prefix("https://store.finalfantasyxiv.com/ffxivstore/"){
@@ -55,7 +55,7 @@ Black, Eerie Black, Raisin Black, Dark Charcoal
 .md-menu-pickup,
 .md-menu-back-btn:hover,
 .box-dropshadow,
-md-menu-lv-1-label:hover,
+.md-menu-lv-1-label:hover,
 .md-menu-lv-2-btn:hover,
 .md-menu-lv-1-btn.is-selected,
 .md-menu-lv-2-btn.is-selected,
