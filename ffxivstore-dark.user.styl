@@ -1,0 +1,187 @@
+/* ==UserStyle==
+@name        Final Fantasy XIV Online Store Dark
+@version     0.1.0
+@homepageURL https://github.com/ipsusu/ffxivstore-dark
+@updateURL   https://github.com/ipsusu/ffxivstore-dark/raw/master/ffxivstore-dark.user.css
+@license     CC BY-NC-SA 4.0
+@author      ipsusu
+==/UserStyle== */
+/*! Final Fantasy XIV Online Store Dark v0.1.0 (2020-06-30) */
+/*! Repository: https://github.com/ipsusu/ffxivstore-dark */
+/*! License:    https://creativecommons.org/licenses/by-nc-sa/4.0/ */
+
+/*
+text color
+*/
+
+* {
+    color: white;
+}
+
+.box-table-th {
+    color: white;
+}
+
+.ffxiv_pr_cross_menu__title,
+.ffxiv_pr_cross_menu__product_site__title {
+    color: white;
+}
+
+/*
+dark color scheme
+https://www.schemecolor.com/dark-black-monochromatic.php
+Black, Eerie Black, Raisin Black, Dark Charcoal
+*/
+
+.main,
+.content,
+.md-menu,
+.md-menu-category,
+.md-menu-lv-1-btn,
+.swiper-container,
+.item-list-top,
+.shop-header-main,
+.topic-path {
+    background-color: black !important;
+    background: black!important;
+}
+
+.item-card,
+.item-about-btnbox,
+.item-about-modal,
+.item-about-notice,
+.md-menu-pickup,
+.md-menu-back-btn:hover,
+.box-dropshadow,
+md-menu-lv-1-label:hover,
+.md-menu-lv-2-btn:hover,
+.md-menu-lv-1-btn.is-selected,
+.md-menu-lv-2-btn.is-selected,
+.ffxiv_pr_cross_menu__inner {
+    background-color: #1B1B1B !important;
+}
+
+
+.headline-dropshadow,
+.box-table-th,
+.character-box,
+.ffxiv_pr_cross_menu__header {
+    background-color: #262626 !important;
+}
+
+/*
+gradients
+*/
+
+.shop-header-info-account {
+    background: -moz-linear-gradient(left, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
+    background: linear-gradient(to right, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
+}
+
+.shop-header-info-crysta {
+    background: -moz-linear-gradient(left, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
+    background: -webkit-linear-gradient(left, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
+    background: linear-gradient(to right, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
+}
+
+.btn.btn-black {
+    background: -moz-linear-gradient(left, #1B1B1B 0%, #262626 100%);
+    background: -webkit-linear-gradient(left, #1B1B1B 0%, #262626 100%);
+    background: linear-gradient(to right, #1B1B1B 0%, #262626 100%);
+}
+
+/*
+add stroke to black pngs
+*/
+
+.shop-header-logo {
+    -webkit-filter: drop-shadow(1px 0px 0 white) drop-shadow(-1px 0px 0 white) drop-shadow(0px 1px 0 white) drop-shadow(0px -1px 0 white);
+    filter: drop-shadow(1px 0px 0 white) drop-shadow(-1px 0px 0 white) drop-shadow(0px 1px 0 white) drop-shadow(0px -1px 0 white);
+}
+
+.headline-label {
+    -webkit-filter: drop-shadow(1px 0px 0 white) drop-shadow(-1px 0px 0 white) drop-shadow(0px 1px 0 white) drop-shadow(0px -1px 0 white);
+    filter: drop-shadow(1px 0px 0 white) drop-shadow(-1px 0px 0 white) drop-shadow(0px 1px 0 white) drop-shadow(0px -1px 0 white);
+    color: black;
+}
+
+/*
+remove left menu images and convert to text.
+*/
+
+div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/new"]:before {
+    margin-left: 45px;
+    font-size: 20px;
+    content: "New Items";
+}
+
+div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/new"] > img {
+    display: none;
+}
+
+div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/sale"]:before {
+    margin-left: 45px;
+    font-size: 20px;
+    content: "On Sale";
+}
+
+div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/sale"] > img {
+    display: none;
+}
+
+div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/ranking"]:before {
+    margin-left: 45px;
+    font-size: 20px;
+    content: "Best Sellers";
+}
+
+div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/ranking"] > img {
+    display: none;
+}
+
+div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/hot"]:before {
+    margin-left: 45px;
+    font-size: 20px;
+    content: "Recommended";
+}
+
+div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/hot"] > img {
+    display: none;
+}
+
+/*
+misc
+*/
+
+select {
+    background-color: #1B1B1B !important;
+    color: white !important;
+}
+
+.btn-dropshadow {
+    background-color: #262626 !important;
+}
+
+/*
+ *  scrollbar
+ */
+/*
+
+*::-webkit-scrollbar-track {
+	background-color: #F5F5F5;
+}
+*/
+
+*::-webkit-scrollbar {
+    width: 10px;
+    background-color: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #F5F5F5;
+}
+
+/*
+ *  end scrollbar
+ */
