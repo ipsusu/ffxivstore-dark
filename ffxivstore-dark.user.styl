@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        Final Fantasy XIV Online Store Dark
-@version     1.0.2
+@version     1.1.0
 @namespace   ipsusu
 @homepageURL https://github.com/ipsusu/ffxivstore-dark
 @updateURL   https://github.com/ipsusu/ffxivstore-dark/raw/master/ffxivstore-dark.user.css
 @license     CC BY-NC-SA 4.0
 @author      ipsusu
 ==/UserStyle== */
-/*! Final Fantasy XIV Online Store Dark v1.0.2 (2020-06-30) */
+/*! Final Fantasy XIV Online Store Dark v1.1.0 (2020-06-30) */
 /*! Repository: https://github.com/ipsusu/ffxivstore-dark */
 /*! License:    https://creativecommons.org/licenses/by-nc-sa/4.0/ */
 @-moz-document url-prefix("https://store.finalfantasyxiv.com/ffxivstore/"){
@@ -40,6 +40,7 @@ Black, Eerie Black, Raisin Black, Dark Charcoal
 .md-menu,
 .md-menu-category,
 .md-menu-lv-1-btn,
+.sm-menu-main,
 .swiper-container,
 .item-list-top,
 .shop-header-main,
@@ -59,6 +60,8 @@ Black, Eerie Black, Raisin Black, Dark Charcoal
 .md-menu-lv-2-btn:hover,
 .md-menu-lv-1-btn.is-selected,
 .md-menu-lv-2-btn.is-selected,
+.sm-menu-btn.is-selected,
+.item-list-filter-main,
 .ffxiv_pr_cross_menu__inner,
 .box-popup {
     background-color: #1B1B1B !important;
@@ -157,6 +160,53 @@ div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/hot"] > img {
     display: none;
 }
 
+/*
+small/burger menu 
+*/    
+
+div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/new"]:before {
+    margin-left: 27px;
+    font-size: 20px;
+    content: "New Items";
+}
+
+div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/new"] > img {
+    display: none;
+}
+
+div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/sale"]:before {
+    margin-left: 27px;
+    font-size: 20px;
+    content: "On Sale";
+}
+
+div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/sale"] > img {
+    display: none;
+}
+
+div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/ranking"]:before {
+    margin-left: 27px;
+    font-size: 20px;
+    content: "Best Sellers";
+}
+
+div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/ranking"] > img {
+    display: none;
+}
+
+div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/hot"]:before {
+    margin-left: 27px;
+    font-size: 20px;
+    content: "Recommended";
+}
+
+div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/hot"] > img {
+    display: none;
+}
+
+    
+    
+    
 /*
 misc
 */
