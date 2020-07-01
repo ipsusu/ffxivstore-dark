@@ -12,7 +12,9 @@ Install it and then click the install button in the section below to add the the
 
 Stylus will open a new tab in your browser that loads the UserCSS userstyle. Make sure to press the `Install style` button, which will be followed by the text “Style Installed” if the installation is successful.
 
-Once installed, Stylus should automatically update the style when I change it here every 24 hours by default. You can also manually check for updates in the Stylus 'Installed Styles' manager or in the options, or even just repeat the install steps and it will prompt an update if your version is outdated.
+Once installed, Stylus should automatically update the style when I change it here (Checking every 24 hours by default). 
+
+You can also manually check for updates in the Stylus 'Installed Styles' manager or in the options, or even just repeat the install steps and it will prompt an update if your version is outdated.
 
 ## Install
 Click the 'Install with Stylus' button below.
