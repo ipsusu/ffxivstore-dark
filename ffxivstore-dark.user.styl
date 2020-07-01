@@ -1,245 +1,190 @@
 /* ==UserStyle==
 @name        Final Fantasy XIV Online Store Dark
-@version     1.1.0
+@version     2.0.0
 @namespace   ipsusu
 @homepageURL https://github.com/ipsusu/ffxivstore-dark
 @updateURL   https://github.com/ipsusu/ffxivstore-dark/raw/master/ffxivstore-dark.user.css
 @license     CC BY-NC-SA 4.0
 @author      ipsusu
 ==/UserStyle== */
-/*! Final Fantasy XIV Online Store Dark v1.1.0 (2020-06-30) */
+/*! Final Fantasy XIV Online Store Dark v2.0.0 (2020-07-01) */
 /*! Repository: https://github.com/ipsusu/ffxivstore-dark */
 /*! License:    https://creativecommons.org/licenses/by-nc-sa/4.0/ */
-@-moz-document url-prefix("https://store.finalfantasyxiv.com/ffxivstore/"){
+@-moz-document url-prefix("https://store.finalfantasyxiv.com/ffxivstore/") {
+    /*
+    text color
+    */
+    * {
+        color: white;
+    }
 
-/*
-text color
-*/
+    .box-table-th {
+        color: white;
+    }
 
-* {
-    color: white;
-}
+    .ffxiv_pr_cross_menu__title,
+    .ffxiv_pr_cross_menu__product_site__title {
+        color: white;
+    }
+    .container {
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    }
 
-.box-table-th {
-    color: white;
-}
+    /*
+    dark color scheme
+    https://www.schemecolor.com/dark-black-monochromatic.php
+    Black, Eerie Black, Raisin Black, Dark Charcoal
+    */
+    .main,
+    .content,
+    .md-menu,
+    .md-menu-pickup,
+    .md-menu-category,
+    .md-menu-lv-1-btn,
+    .sm-menu-main,
+    .swiper-container,
+    .item-list-top,
+    .topic-path {
+        background-color: black !important;
+        background: black!important;
+    }
 
-.ffxiv_pr_cross_menu__title,
-.ffxiv_pr_cross_menu__product_site__title {
-    color: white;
-}
-
-/*
-dark color scheme
-https://www.schemecolor.com/dark-black-monochromatic.php
-Black, Eerie Black, Raisin Black, Dark Charcoal
-*/
-
-.main,
-.content,
-.md-menu,
-.md-menu-category,
-.md-menu-lv-1-btn,
-.sm-menu-main,
-.swiper-container,
-.item-list-top,
-.shop-header-main,
-.topic-path {
-    background-color: black !important;
-    background: black!important;
-}
-
-.item-card,
-.item-about-btnbox,
-.item-about-modal,
-.item-about-notice,
-.md-menu-pickup,
-.md-menu-back-btn:hover,
-.box-dropshadow,
-.md-menu-lv-1-btn:hover,
-.md-menu-lv-2-btn:hover,
-.md-menu-lv-1-btn.is-selected,
-.md-menu-lv-2-btn.is-selected,
-.sm-menu-btn.is-selected,
-.item-list-filter-main,
-.ffxiv_pr_cross_menu__inner,
-.box-popup {
-    background-color: #1B1B1B !important;
-}
+    .item-card,
+    .item-about-btnbox,
+    .item-about-modal,
+    .item-about-notice,
+    .md-menu-back-btn:hover,
+    .box-dropshadow,
+    .md-menu-lv-1-btn:hover,
+    .md-menu-lv-2-btn:hover,
+    .md-menu-lv-1-btn.is-selected,
+    .md-menu-lv-2-btn.is-selected,
+    .sm-menu-btn.is-selected,
+    .item-list-filter-main,
+    .ffxiv_pr_cross_menu__inner,
+    .box-popup,
+    .box-scroll,
+    .bg-dropshadow {
+        background-color: #1B1B1B !important;
+    }
 
 
-.headline-dropshadow,
-.box-table-th,
-.character-box,
-.ffxiv_pr_cross_menu__header,
-.cart-account-select,
-.cart-character-select-all,
-.box-caution,
-.payment-box{
-    background-color: #262626 !important;
-}
+    .headline-dropshadow,
+    .box-table-th,
+    .character-box,
+    .ffxiv_pr_cross_menu__header,
+    .cart-account-select,
+    .cart-character-select-all,
+    .box-caution,
+    .payment-box,
+    body {
+        background-color: #262626 !important;
+    }
 
-/*
-gradients
-*/
+    /*
+    gradients
+    */
+    .shop-header-info-account {
+        background: -moz-linear-gradient(left, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
+        background: -webkit-linear-gradient(left, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
+        background: linear-gradient(to right, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
+    }
 
-.shop-header-info-account {
-    background: -moz-linear-gradient(left, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
-    background: -webkit-linear-gradient(left, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
-    background: linear-gradient(to right, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
-}
+    .shop-header-info-crysta {
+        background: -moz-linear-gradient(left, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
+        background: -webkit-linear-gradient(left, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
+        background: linear-gradient(to right, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
+    }
 
-.shop-header-info-crysta {
-    background: -moz-linear-gradient(left, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
-    background: -webkit-linear-gradient(left, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
-    background: linear-gradient(to right, rgba(27, 27, 27, 1) 0%, rgba(161, 173, 178, 0) 100%);
-}
+    .btn.btn-black {
+        background: -moz-linear-gradient(left, #262626 0%, #2F2F2F 100%);
+        background: -webkit-linear-gradient(left, #262626 0%, #2F2F2F 100%);
+        background: linear-gradient(to right, #262626 0%, #2F2F2F 100%);
+    }
 
-.btn.btn-black {
-    background: -moz-linear-gradient(left, #262626 0%, #2F2F2F 100%);
-    background: -webkit-linear-gradient(left, #262626 0%, #2F2F2F 100%);
-    background: linear-gradient(to right, #262626 0%, #2F2F2F 100%);
-}
+    .btn.btn-orange {
+        background: rgb(255, 153, 51);
+        background: -moz-linear-gradient(left, rgba(255, 153, 51, 1) 0%, #2F2F2F 100%);
+        background: -webkit-linear-gradient(left, rgba(255, 153, 51, 1) 0%, #2F2F2F 100%);
+        background: linear-gradient(to right, rgba(255, 153, 51, 1) 0%, #2F2F2F 100%);
+    }
 
-/*
-add stroke to black pngs
-*/
+    /*
+    css filter color inversions for images
+    */
+    .shop-header {
+        -webkit-filter: invert(100%);
+        /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    .shop-header-info {
+        -webkit-filter: invert(100%);
+        /* Safari/Chrome */
+        filter: invert(100%);
+    }
 
-.shop-header-logo {
-    -webkit-filter: drop-shadow(1px 0px 0 white) drop-shadow(-1px 0px 0 white) drop-shadow(0px 1px 0 white) drop-shadow(0px -1px 0 white);
-    filter: drop-shadow(1px 0px 0 white) drop-shadow(-1px 0px 0 white) drop-shadow(0px 1px 0 white) drop-shadow(0px -1px 0 white);
-}
+    .shop-header-cart {
+        -webkit-filter: invert(100%);
+        /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    .headline-label {
+        -webkit-filter: invert(100%);
+        /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/new"] > img {
+        -webkit-filter: invert(100%);
+        /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/sale"] > img {
+        -webkit-filter: invert(100%);
+        /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/ranking"] > img {
+        -webkit-filter: invert(100%);
+        /* Safari/Chrome */
+        filter: invert(100%);
+    }
+    div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/hot"] > img {
+        -webkit-filter: invert(100%);
+        /* Safari/Chrome */
+        filter: invert(100%);
+    }
 
-.headline-label {
-    -webkit-filter: drop-shadow(1px 0px 0 white) drop-shadow(-1px 0px 0 white) drop-shadow(0px 1px 0 white) drop-shadow(0px -1px 0 white);
-    filter: drop-shadow(1px 0px 0 white) drop-shadow(-1px 0px 0 white) drop-shadow(0px 1px 0 white) drop-shadow(0px -1px 0 white);
-    color: black;
-}
+    /*
+    misc
+    */
+    select {
+        background-color: #1B1B1B !important;
+        color: white !important;
+    }
 
-/*
-remove left menu images and convert to text.
-*/
+    .btn-dropshadow {
+        background-color: #262626 !important;
+    }
 
-div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/new"]:before {
-    margin-left: 45px;
-    font-size: 20px;
-    content: "New Items";
-}
+    /*
+    *  scrollbar
+     */
+    /*
 
-div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/new"] > img {
-    display: none;
-}
+    *::-webkit-scrollbar-track {
+    	background-color: #F5F5F5;
+    }
+    */
+    *::-webkit-scrollbar {
+        width: 10px;
+        background-color: #000000;
+    }
 
-div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/sale"]:before {
-    margin-left: 45px;
-    font-size: 20px;
-    content: "On Sale";
-}
+    *::-webkit-scrollbar-thumb {
+        background-color: #F5F5F5;
+    }
 
-div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/sale"] > img {
-    display: none;
-}
-
-div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/ranking"]:before {
-    margin-left: 45px;
-    font-size: 20px;
-    content: "Best Sellers";
-}
-
-div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/ranking"] > img {
-    display: none;
-}
-
-div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/hot"]:before {
-    margin-left: 45px;
-    font-size: 20px;
-    content: "Recommended";
-}
-
-div.md-menu-pickup > div > a[href*="/ffxivstore/en-gb/hot"] > img {
-    display: none;
-}
-
-/*
-small/burger menu 
-*/    
-
-div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/new"]:before {
-    margin-left: 27px;
-    font-size: 20px;
-    content: "New Items";
-}
-
-div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/new"] > img {
-    display: none;
-}
-
-div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/sale"]:before {
-    margin-left: 27px;
-    font-size: 20px;
-    content: "On Sale";
-}
-
-div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/sale"] > img {
-    display: none;
-}
-
-div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/ranking"]:before {
-    margin-left: 27px;
-    font-size: 20px;
-    content: "Best Sellers";
-}
-
-div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/ranking"] > img {
-    display: none;
-}
-
-div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/hot"]:before {
-    margin-left: 27px;
-    font-size: 20px;
-    content: "Recommended";
-}
-
-div.sm-menu-pickup > div > a[href*="/ffxivstore/en-gb/hot"] > img {
-    display: none;
-}
-
-    
-    
-    
-/*
-misc
-*/
-
-select {
-    background-color: #1B1B1B !important;
-    color: white !important;
-}
-
-.btn-dropshadow {
-    background-color: #262626 !important;
-}
-
-/*
- *  scrollbar
- */
-/*
-
-*::-webkit-scrollbar-track {
-	background-color: #F5F5F5;
-}
-*/
-
-*::-webkit-scrollbar {
-    width: 10px;
-    background-color: #000000;
-}
-
-*::-webkit-scrollbar-thumb {
-    background-color: #F5F5F5;
-}
-
-/*
- *  end scrollbar
- */
+    /*
+    *  end scrollbar
+    */
 }

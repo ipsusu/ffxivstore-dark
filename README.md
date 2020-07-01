@@ -1,6 +1,6 @@
 <p align="center">
   <h1 align="center">Final Fantasy XIV Online Store Dark</h1>
-  <p align="center">A black background, dark mode, user-style for https://store.finalfantasyxiv.com/ffxivstore/</p>
+  <p align="center">A black background, dark mode user-style for https://store.finalfantasyxiv.com/ffxivstore/</p>
   <p align="center">
     <img src="https://raw.githubusercontent.com/ipsusu/ffxivstore-dark/master/images/preview.jpg">
   </p>
@@ -8,9 +8,11 @@
 
 ## How To
 The recommended injector for userstyles is [Stylus](https://add0n.com/stylus.html).
-Install it and then click the install button below to add the theme to the website.
+Install it and then click the install button in the section below to add the theme to the website.
 
 Stylus will open a new tab in your browser that loads the UserCSS userstyle. Make sure to press the `Install style` button, which will be followed by the text “Style Installed” if the installation is successful.
+
+Once installed, Stylus should automatically update the style when I change it here. You can also manually check for updates in the Stylus 'Installed Styles' manager.
 
 ## Install
 Click the 'Install with Stylus' button below.
@@ -27,5 +29,3 @@ Message me on [Twitter](https://twitter.com/ipsusu)!
 This does not theme the payment process as this redirects to the Square Enix site.
 
 If you would like to theme these, add "https://secure.square-enix.com/account/app/svc/top?request=paysyslogin" as an 'Applies to URLs starting with' section. Though, this does not theme the card detail entering page.
-
-I have not tested the 'Gift a Friend' option, so this is potentially unthemed if there are any unique elements for that function. 
